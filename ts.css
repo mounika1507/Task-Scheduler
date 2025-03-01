@@ -1,0 +1,70 @@
+
+body {
+    background-color: #f9f9f9;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.taskform {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #2c2d2e;
+}
+#tasklist {
+    max-width: 500px;
+    margin: auto;
+    text-align: left;
+}
+.task {
+    background: white;
+    padding: 15px;
+    border-left: 5px solid #007bff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.mark-done {
+    font-size: 16px;
+    background-color: #be2121;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.mark-done:disabled {
+    background-color: #0c0a0a;
+    cursor: allowed;
+}
+.delete-task {
+    font-size: 16px;
+    background-color: #be2121;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.delete-task:hover {
+    background-color: #0c0a0a;   
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="ts.css">
+    <title>Task Scheduler</title>
+</head>
+<body>
+    <h2>Task Scheduler</h2>
+    <div class="taskform">
+        <input type="text" id="task" placeholder="enter task">
+        <select id="priority">
+            <option value="high">High Priority</option>
+            <option value="medium">Medium Priority</option>
+            <option value="low">Low Priority</option>
+        </select>
+        <input type="date" id="deadline">
+        <button id="addtask">Add Task</button>
+    </div>
+    <div id="tasklist"></div>
+    <script src="ts.js"></script>
+</body>
+</html>
